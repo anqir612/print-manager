@@ -38,10 +38,10 @@ PrintManagerControllers.run(['$rootScope', '$location', '$window', 'Printers',
             '8301C8D0-7A59-4F4B-A918-D5D38888790F' : {
                 cssClass: 'printrbotplus',
                 nickname: 'Printrbot Plus'
-            },
-            '4A0F7523-071B-4F1E-A527-9DA49AECB807' : {
-                cssClass: 'dfrobot',
-                nickname: 'DreamMaker OverLord'
+            }
+			'77dc7878-b9d3-11e5-9912-ba0be0483c18' : {
+                cssClass: 'einstarts',
+                nickname: 'einstarts'
             }
        };
 
@@ -126,8 +126,8 @@ PrintManagerControllers.controller('PrinterAddController', ['$scope', 'Printers'
     function($scope, Printers) {
         $scope.printerTypes = [
             {id: '7FAF097F-DB2E-45DC-9395-A30210E789AA', name: 'Autodesk Ember'},
-            {id: 'F2F4B9B6-1D54-4A16-883E-B0385F27380C', name: 'Type A Series 1'},
-            {id: '4A0F7523-071B-4F1E-A527-9DA49AECB807', name: 'DreamMaker OverLord'}
+            {id: 'F2F4B9B6-1D54-4A16-883E-B0385F27380C', name: 'Type A Series 1'}
+			{id: '77dc7878-b9d3-11e5-9912-ba0be0483c18', name: 'EinstartS'}
         ];
 
         $scope.printer = {};

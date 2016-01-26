@@ -18,6 +18,15 @@
             "driverPath"  : "./drivers/ultimaker",
             "printerType" : "8D39294C-FA7A-40F4-AB79-19F506C64097"
         },
+		{
+            "type"        : "serial",
+            "blackBox"    : false,
+            "description" : "EinstartS",
+            "VID"         : 1027,
+            "PID"         : 24577,
+            "driverPath"  : "./drivers/einstarts",
+            "printerType" : "77dc7878-b9d3-11e5-9912-ba0be0483c18"
+        },
         {
             "type"        : "serial",
             "blackBox"    : true,
@@ -69,15 +78,6 @@
             "PID"         : -1,
             "driverPath"  : "./drivers/printrbot",
             "printerType" : "152A72A1-45C7-11E5-B970-0800200C9A66"
-        },
-        {
-            "type"        : "serial",
-            "blackBox"    : false,
-            "description" : "DreamMaker Overlord",
-            "VID"         : 403,
-            "PID"         : 6001,
-            "driverPath"  : "./drivers/overlord",
-            "printerType" : "4A0F7523-071B-4F1E-A527-9DA49AECB807"
         }
     ]
 }
