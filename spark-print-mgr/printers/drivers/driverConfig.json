@@ -14,7 +14,7 @@
             "blackBox"    : false,
             "description" : "Ultimaker 2",
             "VID"         : 9025,
-            "PID"         : 16,
+            "PID"         : 66,
             "driverPath"  : "./drivers/ultimaker",
             "printerType" : "8D39294C-FA7A-40F4-AB79-19F506C64097"
         },
@@ -22,8 +22,8 @@
             "type"        : "serial",
             "blackBox"    : false,
             "description" : "EinstartS",
-            "VID"         : 1027,
-            "PID"         : 24577,
+            "VID"         : 9025,
+            "PID"         : 16,
             "driverPath"  : "./drivers/einstarts",
             "printerType" : "77dc7878-b9d3-11e5-9912-ba0be0483c18"
         },

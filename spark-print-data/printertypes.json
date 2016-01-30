@@ -300,7 +300,7 @@
                     "type": "serial",
                     "discovery": "serial",
                     "protocol": "usb.serial",
-                    "baud" : 115200
+                    "baud" : 250000
                 }
             ],
             "preferred_connection": "serial",

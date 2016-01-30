@@ -48,7 +48,7 @@
             "is_user": false,
             "filament_diameter": 0.175,
             "filament_extrusion_to_flow_multiplier": 1,
-            "temp_extrude_default": 220,
+            "temp_extrude_default": 205,
             "temp_min_extrude": 175,
             "temp_max_extrude": 230,
             "temp_bed": 60,
